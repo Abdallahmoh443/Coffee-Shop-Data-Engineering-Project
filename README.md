@@ -48,3 +48,8 @@ The project follows a modern data engineering pipeline architecture:
 
 ![Architecture Diagram](Images/Over%20View.png)
 
+
+![Architecture Diagram](Images/first%20page.png)
+
+
+![Architecture Diagram](Images/secound%20page.png)
