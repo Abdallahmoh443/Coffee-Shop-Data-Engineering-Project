@@ -15,9 +15,9 @@ db_connection_string = (
 )
 conn = pyodbc.connect(db_connection_string)
 
-dl_connection_string = (r'connection_string = "DefaultEndpointsProtocol=https;AccountName=coffeeshopstorage;AccountKey=TlIrfddP90/Rb75n4vdnk4TJE31aq3vbji1haWjjnm28algkLc9SkAk03V1TFgt1wMUjTJNiCUBo+AStPVyfLg==;EndpointSuffix=core.windows.net')
+dl_connection_string = (r'connection_string = "')
 blob_service_client = BlobServiceClient.from_connection_string(dl_connection_string)
-engine = create_engine('mssql+pyodbc://USER/coffeeShopDb?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes')
+engine = create_engine('')
 
 tables_csv = ['Customer.csv', 'Generations.csv', 'Inventory.csv', 'Product.csv', 'SalesOutlet.csv', 'SalesTarget.csv', 'staff.csv', 'SalesOrders.csv']
 tables_db = ['customer', 'generations', 'inventory', 'product', 'salesOutlet', 'salesTarget', 'staff', 'salesorders']
