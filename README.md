@@ -12,7 +12,7 @@ This project demonstrates a comprehensive data engineering pipeline for a coffee
 2. **Data Ingestion to Azure Data Lake Gen2**: 
     - Data was extracted from the on-premise database and loaded into **Azure Data Lake Storage Gen2** using Python’s libraries such **pandas**, **pyodbc** and **azure.storage.blob** . This provided a robust, scalable storage solution for raw data.
 
-3. **Azure Data Factory for Data Pipeline**: 
+3. **Azure Data Factory for Data Pipeline**.
 
 4. **Data Cleaning and Transformation with Databricks**: 
     - **Azure Databricks** was utilized for data cleaning and transformation. The data was processed in two transformation layers:
