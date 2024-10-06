@@ -1,12 +1,12 @@
-#Coffee Shop Data Engineering Project
+# Coffee Shop Data Engineering Project
 
 
-#Overview
+# Overview
 
 This project demonstrates a comprehensive data engineering pipeline for a coffee shop chain. The end-to-end solution covers data ingestion, cleaning, transformation, storage, and visualization, leveraging both on-premise and cloud technologies. The project focuses on building a scalable and efficient data architecture using Azure services and other popular data engineering tools.
 
-Workflow Summary
-On-premise Database Design:
+# Workflow Summary
+# On-premise Database Design:
 
 Initially, we designed the database schema for a coffee shop business, capturing data on stores, sales, customers, and products.
 Data Ingestion to Azure Data Lake Gen2:
