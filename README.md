@@ -46,7 +46,7 @@ The project follows a modern data engineering pipeline architecture:
 - **Azure Synapse Analytics**: Serverless data warehouse for querying.
 - **Power BI**: For building interactive data visualizations and dashboards.
 
-![Architecture Diagram](Images/Over%20View.png)
+![Architecture Diagram](Images/Overview.png)
 
 
 ![Architecture Diagram](Images/first%20page.png)
